@@ -17,6 +17,7 @@
 2. We will then run the model through SentEval(https://github.com/facebookresearch/SentEval) which can provide us an accuracy score through a series of benchmarked tests
 3. We will then load and process our model within Faiss(https://github.com/facebookresearch/faiss) and perform comparative search against Bert and other Bert variants.
 
-## New dataset for re-train SimCSE
-* https://drive.google.com/drive/folders/1OPNicSQnr3kbnCr6ajcehZiCRFY36URe?usp=share_link
+## Dataset
+#### re-train SimCSE
+* 5M tweets: https://drive.google.com/drive/folders/1OPNicSQnr3kbnCr6ajcehZiCRFY36URe?usp=share_link
 
