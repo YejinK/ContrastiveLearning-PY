@@ -11,3 +11,12 @@
 * Introduce the SimCSE model and fine-tune the BERT using a SimCSE objective function
 * Compare those models on the benchmark evaluation dataset.
     - Since the semantic textual similarity tasks are already reported by the SimCSE paper, our aim is to augment these benchmarks and and obtain performance evaluation in a different aspect using Faiss (not only semantical evaluation but also speed-wise aspect; search time, search quality, memory used per index vector, training time, etc.).
+    
+## Experimental Process
+1. We aim to train an informational text corpus through the simCSE framework using 5M tweets
+2. We will then run the model through SentEval(https://github.com/facebookresearch/SentEval) which can provide us an accuracy score through a series of benchmarked tests
+3. We will then load and process our model within Faiss(https://github.com/facebookresearch/faiss) and perform comparative search against Bert and other Bert variants.
+
+## New dataset for re-train SimCSE
+* https://drive.google.com/drive/folders/1OPNicSQnr3kbnCr6ajcehZiCRFY36URe?usp=share_link
+
