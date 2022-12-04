@@ -22,10 +22,13 @@
 * 5M tweets: https://drive.google.com/drive/folders/1OPNicSQnr3kbnCr6ajcehZiCRFY36URe?usp=share_link (original dataset: https://tweetsets.library.gwu.edu/)
 
 ## Result
+### Semantic Text Similarity tasks
 
 | STS12 | STS13 | STS14 | STS15 | STS16 | STSBenchmark | SICKRelatedness |  Avg. |
 |------|---|---|------|---|---|------|---|
 | 67.95 | 80.47 | 71.30 | 79.37 | 75.79 |    75.41     |      67.96      | 74.04 |
+
+### Transfer tasks
 |   MR  |   CR  |  SUBJ |  MPQA |  SST2 |  TREC |  MRPC |  Avg. |
 |------|---|---|------|---|---|------|---|
 | 79.84 | 84.56 | 94.02 | 88.36 | 84.29 | 85.60 | 74.32 | 84.43 |
