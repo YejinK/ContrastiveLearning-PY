@@ -42,14 +42,3 @@
 |SimCSE-BERT(base)-only-tweet|0.25|0.0167|0.64|
 |SimCSE-BERT(base)-wiki-tweet|0.25|0.0164|0.65|
 
-
-### Search tasks
-
-|Model|Memory|Average search time|MRR|
-|------|---|---|------|
-|BERT(base)|0.25|0.0175|0.52|
-|SimCSE-BERT(base)-only-wiki|0.25|0.0164|0.64|
-|SimCSE-BERT(base)-only-tweet|0.25|0.0167|0.64|
-|SimCSE-BERT(base)-wiki-tweet|0.25|0.0164|0.65|
-
-
