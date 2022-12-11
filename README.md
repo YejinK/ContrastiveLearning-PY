@@ -22,7 +22,7 @@
 
 ## Model trained on Tweet and Tweet + Wikidata
 * [SimCSE-BERT(base)-only-tweet](https://drive.google.com/drive/folders/1-0HTc0GdLE3khwJiyYJLPjXtTvT7zUg4?usp=sharing)
-* [SimCSE-BERT(base)-wiki-tweet]()
+* [SimCSE-BERT(base)-wiki-tweet](https://drive.google.com/drive/folders/1EMeu3Qy765h6uphJsKTrVs_aJtjAquAB?usp=sharing)
 
 ## Dataset
 * Wikidata: 
