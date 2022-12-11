@@ -18,7 +18,7 @@
 3. We will then load and process our model within Faiss(https://github.com/facebookresearch/faiss) and perform comparative search against Bert and other Bert variants.
 
 ## Quick Start
-* We added a notebook for quick training and evaluation of our experiment process: 
+* We added a notebook for quick training and evaluation of our experiment process: [Colab_SimCSE_unsup_bert_uncased_train_tweets.ipynb](https://github.com/YejinK/contrastive-learning-yk-pg/blob/main/Colab_SimCSE_unsup_bert_uncased_train_tweets.ipynb)
 
 ## Dataset
 #### Retrain SimCSE (Unsupervised)
