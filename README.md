@@ -24,14 +24,20 @@
 ## Result
 ### Semantic Text Similarity tasks
 
-| STS12 | STS13 | STS14 | STS15 | STS16 | STSBenchmark | SICKRelatedness |  Avg. |
-|------|---|---|------|---|---|------|---|
-| 67.95 | 80.47 | 71.30 | 79.37 | 75.79 |    75.41     |      67.96      | 74.04 |
+|Model| STS12 | STS13 | STS14 | STS15 | STS16 | STSBenchmark | SICKRelatedness |  Avg. |
+|----|------|---|---|------|---|---|------|---|
+|BERT(base)| xx.96 | 80.79 | 71.50 | 79.49 | 76.21 |    75.25     |      67.92      | 74.16|
+|SimCSE-BERT(base)-only-wiki| 68.4	| 82.41	|74.38	|80.91	|78.56	|76.85|	72.23	|76.25|
+|SimCSE-BERT(base)-only-tweet*| 67.96 | 80.79 | 71.50 | 79.49 | 76.21 |    75.25     |      67.92      | 74.16|
+|SimCSE-BERT(base)-wiki-tweet*| 69.27 | 81.54 | 74.42 | 82.43 | 77.59 |    77.78     |      70.78      | 76.26|
 
 ### Transfer tasks
-|   MR  |   CR  |  SUBJ |  MPQA |  SST2 |  TREC |  MRPC |  Avg. |
-|------|---|---|------|---|---|------|---|
-| 79.84 | 84.56 | 94.02 | 88.36 | 84.29 | 85.60 | 74.32 | 84.43 |
+|Model|   MR  |   CR  |  SUBJ |  MPQA |  SST2 |  TREC |  MRPC |  Avg. |
+|----|------|---|---|------|---|---|------|---|
+|BERT(base)| xx.54 | 84.96 | 94.38 | 88.52 | 83.91 | 87.40 | 72.52 | 84.60 |
+|SimCSE-BERT(base)-only-wiki| 81.18	|86.46	|94.45|	88.88	|85.50	|89.80|	74.43	|85.81 |
+|SimCSE-BERT(base)-only-tweet*| 80.54 | 84.96 | 94.38 | 88.52 | 83.91 | 87.40 | 72.52 | 84.60 |
+|SimCSE-BERT(base)-wiki-tweet*| 77.85 | 82.54 | 93.04 | 87.72 | 82.26 | 81.00 | 75.54 | 82.85 |
 
 ### Search tasks
 
@@ -39,6 +45,6 @@
 |------|---|---|------|
 |BERT(base)|0.25|0.0175|0.52|
 |SimCSE-BERT(base)-only-wiki|0.25|0.0164|0.64|
-|SimCSE-BERT(base)-only-tweet|0.25|0.0167|0.64|
-|SimCSE-BERT(base)-wiki-tweet|0.25|0.0164|0.65|
+|SimCSE-BERT(base)-only-tweet*|0.25|0.0167|0.64|
+|SimCSE-BERT(base)-wiki-tweet*|0.25|0.0164|0.65|
 
