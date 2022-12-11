@@ -20,6 +20,9 @@
 ## Quick Start
 * We added a notebook for quick training and evaluation of our experiment process: [Colab_SimCSE_unsup_bert_uncased_train_tweets.ipynb](https://github.com/YejinK/contrastive-learning-yk-pg/blob/main/Colab_SimCSE_unsup_bert_uncased_train_tweets.ipynb)
 
+## Model trained on Tweet and Tweet + Wikidata
+* [Datalink](https://drive.google.com/drive/folders/1gMKh96EwPhl4QB_iXfG69MOCgw2E1Ywm?usp=sharing)
+
 ## Dataset
 #### Retrain SimCSE (Unsupervised)
 * 5M tweets: https://drive.google.com/drive/folders/1OPNicSQnr3kbnCr6ajcehZiCRFY36URe?usp=share_link (original dataset: https://tweetsets.library.gwu.edu/)
