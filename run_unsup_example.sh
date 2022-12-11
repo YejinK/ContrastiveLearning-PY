@@ -6,8 +6,8 @@
 
 python train.py \
     --model_name_or_path bert-base-uncased \
-    --train_file data/wiki1m_for_simcse.txt \
-    --output_dir result/my-unsup-simcse-bert-base-uncased \
+    --train_file data/tweets.txt \
+    --output_dir result/unsup-simcse-bert-base-uncased-fl-tweet \
     --num_train_epochs 1 \
     --per_device_train_batch_size 64 \
     --learning_rate 3e-5 \
@@ -16,7 +16,7 @@ python train.py \
     --metric_for_best_model stsb_spearman \
     --load_best_model_at_end \
     --eval_steps 125 \
-    --pooler_type cls \
+    --pooler_type avg_first_last \
     --mlp_only_train \
     --overwrite_output_dir \
     --temp 0.05 \
