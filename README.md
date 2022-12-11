@@ -1,4 +1,4 @@
-# Neural Network Project / Fall 2023
+# Neural Network Project / Fall 2022
 
 ## Our group would like to explore deep learning in the context of language models. Specifically, we aim to:
 * Explain the concept of word embeddings and how they can be extended for static sentence embeddings in NLP applications.
