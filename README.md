@@ -25,7 +25,10 @@
 * [SimCSE-BERT(base)-wiki-tweet]()
 
 ## Dataset
-#### Retrain SimCSE (Unsupervised)
+* Wikidata: 
+```bash
+./data/download_wiki.sh
+```
 * 5M tweets: https://drive.google.com/drive/folders/1OPNicSQnr3kbnCr6ajcehZiCRFY36URe?usp=share_link (original dataset: https://tweetsets.library.gwu.edu/)
 
 ## Result
