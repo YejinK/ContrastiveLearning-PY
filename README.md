@@ -24,7 +24,7 @@
 ## Result
 ### Semantic Text Similarity tasks
 
-|Model| STS12 | STS13 | STS14 | STS15 | STS16 | STSBenchmark | SICKRelatedness |  Avg. |
+|Model| STS12 | STS13 | STS14 | STS15 | STS16 | STSB | SICKR |  Avg. |
 |----|------|---|---|------|---|---|------|---|
 |BERT(base)| xx.96 | 80.79 | 71.50 | 79.49 | 76.21 |    75.25     |      67.92      | 74.16|
 |SimCSE-BERT(base)-only-wiki| 68.4	| 82.41	|74.38	|80.91	|78.56	|76.85|	72.23	|76.25|
@@ -41,7 +41,7 @@
 
 ### Search tasks
 
-|Model|Memory|Average search time|MRR|
+|Model|Memory|Avg. search time|MRR|
 |------|---|---|------|
 |BERT(base)|0.25|0.0175|0.52|
 |SimCSE-BERT(base)-only-wiki|0.25|0.0164|0.64|
